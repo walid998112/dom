@@ -1,0 +1,115 @@
+/* .navbar-brand {
+  color: green !important;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  i {
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: black;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shopping-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 50px 0;
+  }
+  .total-price span {
+    font-size: 30px;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  .list-products {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 70%;
+  }
+  .card {
+    padding: 5%;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity {
+    font-size: 25px;
+  }
+  
+  .card-body div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .fa-trash-alt {
+    color: #de6b5c;
+  }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #d4d4d4;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer .fa-facebook-f:hover { color: #3b5998; }
+footer .fa-twitter:hover { color: #00acee; }
+footer .fa-instagram:hover { color: #bc2a8d; }
+footer .fa-linkedin-in:hover { color: #0e76a8; }
+
+/* CSS to change heart color when liked */
+.fa-heart.liked {
+  color: red; /* Change to your preferred color */
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #d4d4d4;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer .fa-facebook-f:hover { color: #3b5998; }
+footer .fa-twitter:hover { color: #00acee; }
+footer .fa-instagram:hover { color: #bc2a8d; }
+footer .fa-linkedin-in:hover { color: #0e76a8; }
